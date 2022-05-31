@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(70, 70, 70);
+    margin: 1% 20%;
+}
+hr{
+    color: white;
+    opacity: 100%;
+}
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
+}
+li{
+    margin: 15px 0px;
+}
+ul li:before {
+	content: "☛";
+	position: absolute;
+	left: 0;
+}
+.title {
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+    font-size: 7vh;
+    color: white;
+}
+#img{
+    text-align: center;
+}
+#image {
+    display: inline-block;
+    width: 100%;
+    border-radius: 30px;
+    background-color: white;
+}
+#caption {
+    font-size: 17px;
+    font-family: Gill Sans;
+    color: white;
+}
+div#tribute-data {
+    border-radius: 30px;
+    background-color: rgba(100, 100, 100, 0.25);
+    box-shadow: 20px 20px 20px #8d8d8d;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px 25px;
+    margin: 11px;
+    margin-top: 50px;
+    color: white;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.missile{
+    width: 500px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+/* Styling the title of the content */
+h1.title-APJ {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+}
+
+/* Styling the link provided at the end */
+#tribute-link {
+    text-decoration: none;
+    color: white;
+}
